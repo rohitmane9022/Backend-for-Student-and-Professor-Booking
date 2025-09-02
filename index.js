@@ -13,7 +13,7 @@ dotenv.config();
 db()
 
 app.get("/",async(req,res)=>{
-    res.send("hello")
+    res.send("hello Student and Professor")
 })
 
 app.use("/auth", authRoutes);
